@@ -1,6 +1,6 @@
 <template>
 <div>
-     <div class='text-4xl w-20 h-20 mx-auto'>21341231</div>
+     <div class='text-4xl w-20 h-20 mx-auto'>项目初始化</div>
      <n-space>
         <n-button type="error">按钮</n-button>
          <n-button type="tertiary">
