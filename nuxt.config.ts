@@ -4,7 +4,7 @@ import { NaiveUiResolver } from 'unplugin-vue-components/resolvers';
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  css: ["@/assets/css/tailwind.css"],
+  buildModules: ['@nuxtjs/tailwindcss'],
   build: {
     transpile: ['vueuc'],
     postcss: {
@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         }),
     ],
     ssr: {
-        noExternal: ['moment', 'naive-ui', '@juggle/resize-observer', ],
-    },
+        noExternal: ['moment', 'naive-ui', '@juggle/resize-observer', ]
+    }
 }
 });

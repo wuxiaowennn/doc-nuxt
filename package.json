@@ -7,11 +7,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
+    "@nuxtjs/tailwindcss": "^5.0.4",
     "naive-ui": "^2.28.2",
     "nuxt": "3.0.0-rc.1",
-    "postcss": "^8.4.13",
-    "tailwindcss": "^3.0.24",
     "unplugin-vue-components": "^0.19.3"
   }
 }
