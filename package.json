@@ -11,5 +11,9 @@
     "naive-ui": "^2.28.2",
     "nuxt": "3.0.0-rc.1",
     "unplugin-vue-components": "^0.19.3"
+  },
+  "dependencies": {
+    "md-editor-v3": "^1.11.12",
+    "sanitize-html": "^2.7.0"
   }
 }
