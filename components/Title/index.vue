@@ -9,7 +9,8 @@
           <div>
             <button class="draft">草稿箱</button>
           </div>
-          <div class="release-btn"><button>发布</button></div>
+          <div class="release-btn"><a> <Button-1></Button-1> </a></div>
+
           <div>
             <div class="login-header"></div>
           </div>
@@ -78,7 +79,6 @@ export default {
   padding: 0 8px;
 }
 .publish>div:nth-child(3)>button{
-  /*border:1px solid #1d7dfa;*/
   background: #1d7dfa;
   color: white;
   width: 62px;
@@ -87,9 +87,7 @@ export default {
   line-height: 32px;
   font-size: 14px;
 }
-.publish>div:nth-child(3)>button:hover{
-  background: #388eff;
-}
+
 .publish>div:nth-child(4){
   display: flex;
   justify-content: center;
@@ -105,4 +103,5 @@ export default {
 .login-header:hover{
   cursor: pointer;
 }
+
 </style>
