@@ -6,7 +6,7 @@
 </template>
 
 
-<style>
+<style scoped>
 
 .n-input-wrapper{
   resize: none!important;

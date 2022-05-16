@@ -11,7 +11,7 @@
           发布
         </n-button>
       </template>
-      <div class="h-[85vh]" style="width: 560px">
+      <div class="" style="width: 560px;height:620px">
           <Button-ListTags></Button-ListTags>
           <Button-ListClass></Button-ListClass>
         <Button-ListLastbtn></Button-ListLastbtn>

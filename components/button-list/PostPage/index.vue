@@ -18,19 +18,11 @@
   </n-upload>
 </template>
 
-<!--
-<script lang="ts">
-// import { defineComponent } from 'vue'
-// import { ArchiveOutline as ArchiveIcon } from '@vicons/ionicons5'
+<script setup>
 
-export default defineComponent({
-  components: {
-    ArchiveIcon
-  }
-})
-</script>-->
+</script>
 
-<style>
+<style scoped>
 .n-text{
   color: #92909c
 }

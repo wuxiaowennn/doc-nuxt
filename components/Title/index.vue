@@ -12,7 +12,9 @@
           <div class="release-btn"><a> <Button-1></Button-1> </a></div>
 
           <div>
-            <div class="login-header"></div>
+            <div class="login-header">
+                头像
+            </div>
           </div>
         </div>
   </div>
